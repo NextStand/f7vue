@@ -1,7 +1,8 @@
 <template>
   <div>
-    <h1 @click="goto">编程式导航</h1>
+    <h1 @click="goto">编程式导航1</h1>
 
+     <h1 @click="goto">编程式导航3</h1>
      <f7-link href="/test">About App</f7-link>
   </div>
 </template>
