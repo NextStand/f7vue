@@ -1,0 +1,114 @@
+/* 修改元样式开始 */
+#tab1 , 
+#tab2 , 
+#tab3 , 
+#tab4 , 
+#tab5 {
+    height:calc(100% - 50px);
+    box-sizing: border-box;
+    border:1px solid transparent;
+}
+
+.bg-green{
+    background-color:#11CD6E;
+}
+.tabbar a.active {
+    color: #11CD6E;
+}
+/* 修改元样式结束 */
+
+/* 工具样式开始 */
+.color-green {
+    color: #11CD6E;
+}
+.color-danger{
+    color: #F56C6C
+}
+.color-blue{
+    color:#409EFF
+}
+.color-success{
+    color:#67C23A
+}
+.color-warning{
+    color:#E6A23C
+}
+.color-info{
+    color:#909399
+}
+.color-white{
+    color:#ffffff
+}
+.bg-green {
+    background-color: #11CD6E;
+}
+.bg-danger{
+    background-color: #F56C6C;
+}
+.bg-blue{
+    background-color:#409EFF
+}
+.bg-success{
+    background-color:#67C23A
+}
+.bg-warning{
+    background-color:#E6A23C
+}
+.bg-info{
+    background-color:#909399
+}
+.button.button-fill.color-green {
+    background: #11CD6E !important;
+}
+/*字体*/
+
+.fs-small {
+    font-size: 8px;
+}
+
+.fs-middle {
+    font-size: 10px;
+}
+
+.fs-normal {
+    font-size: 12px;
+}
+
+.fs-lg {
+    font-size: 14px;
+}
+.fs-2g {
+    font-size: 15px;
+}
+.fs-1x {
+    font-size: 16px;
+}
+
+.fs-2x {
+    font-size: 18px;
+}
+.fs-3x {
+    font-size: 20px;
+}
+.fs-4x {
+    font-size: 21px;
+}
+.fs-5x {
+    font-size: 22px;
+}
+.fs-6x {
+    font-size: 24px;
+}
+.fs-icon{
+    font-size: 1.2em;
+}
+.fs-iconsm{
+    font-size: 1.05em;
+}
+
+.lh-one-em {
+    line-height: 1em !important;
+}
+.lh-tab-em {
+    line-height: 1.2em !important;
+}
