@@ -12,11 +12,12 @@ import Framework7 from 'framework7'
 // Import F7 Vue Plugin
 import Framework7Vue from 'framework7-vue'
 
-// Import F7 iOS Theme Styles
+// Import F7 iOS Theme Styles  引用在线版本时注释
 // import Framework7Theme from 'framework7/dist/css/framework7.ios.min.css'
 // import Framework7ThemeColors from 'framework7/dist/css/framework7.ios.colors.min.css'
 
-import FontAwesome from '@/assets/css/font-awesome.min.css'
+//引用在线版本时注释
+//import FontAwesome from '@/assets/css/font-awesome.min.css'
 
 // Import App Custom Styles
 import AppStyles from '@/assets/css/app.css'
