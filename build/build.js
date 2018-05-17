@@ -11,7 +11,7 @@ const webpack = require('webpack')
 const config = require('../config')
 const webpackConfig = require('./webpack.prod.conf')
 const fs = require('fs')
-const fixStaticPath = require('./fix-static-path');
+//const fixStaticPath = require('./fix-static-path');
 
 const spinner = ora('我开始玩命打包了,我的口号是"没有BUG"...今天一天过得不错吧？梦想是不是更远了？')
 spinner.start()
@@ -29,7 +29,7 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
       chunkModules: false
     }) + '\n\n')
 
-    fixStaticPath();
+    // fixStaticPath();
 
     if (stats.hasErrors()) {
       console.log(chalk.red(' 天哪，出错了.\n'))
